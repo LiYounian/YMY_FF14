@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<TriggernometryExport Version="1">
+  <ExportedFolder FFXIVJobFilterEnabled="True" FFXIVJobFilter="4294967296" Id="b9d3aff9-3e95-4146-a25e-b1c7599a4690" Name="占星发卡" Enabled="true">
+    <Folders />
+    <Triggers>
+      <Trigger Enabled="true" Name="河流神之瓶" Id="2e13279f-bad3-4a0e-be86-919257421e25" RegularExpression=":08ae:.*附加了“河流神之瓶（抽卡）”效果。">
+        <Actions>
+          <Action OrderNumber="1" UseTTSTextExpression="远程 月" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="战争神之枪" Id="37dc2553-39dc-4eee-9039-2a8f855d3ae9" RegularExpression=":08ae:.*附加了“战争神之枪（抽卡）”效果。">
+        <Actions>
+          <Action OrderNumber="1" UseTTSTextExpression="近战 星" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="放浪神之箭" Id="48c97797-2ac0-4b55-99aa-5bceca78b9b4" RegularExpression=":08ae:.*附加了“放浪神之箭（抽卡）”效果。">
+        <Actions>
+          <Action OrderNumber="1" UseTTSTextExpression="近战 月" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="太阳神之衡" Id="7dd7d785-8078-4a5c-a21c-2f03a5b21aa4" RegularExpression=":08ae:.*附加了“太阳神之衡（抽卡）”效果。">
+        <Actions>
+          <Action OrderNumber="1" UseTTSTextExpression="近战 日" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="世界树之干" Id="88f10cc1-aab6-459e-9663-99868ec3729a" RegularExpression=":08ae:.*附加了“世界树之干（抽卡）”效果。">
+        <Actions>
+          <Action OrderNumber="1" UseTTSTextExpression="远程 日" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="建筑神之塔" Id="649e4bc7-c497-4347-8c53-1146d3c3119b" RegularExpression=":08ae:.*附加了“建筑神之塔（抽卡）”效果。">
+        <Actions>
+          <Action OrderNumber="1" UseTTSTextExpression="远程 星" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+    </Triggers>
+  </ExportedFolder>
+</TriggernometryExport>

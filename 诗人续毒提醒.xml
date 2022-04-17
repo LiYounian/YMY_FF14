@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<TriggernometryExport Version="1">
+  <ExportedFolder FFXIVJobFilterEnabled="True" FFXIVJobFilter="4194304" Id="a65ef7ad-d049-497a-abcf-e6553f6fc140" Name="诗人" Enabled="true">
+    <Folders />
+    <Triggers>
+      <Trigger Enabled="true" Name="绝峰箭" Id="282031ef-f405-4bb3-8f78-cf0337bbaea3" RegularExpression="] 1F:100C5212:樱满幽:.*:.64:(E00000)?00:00$">
+        <Actions>
+          <Action OrderNumber="1" SystemBeepFreqExpression="600" SystemBeepLengthExpression="300" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="SystemBeep">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="KFSJ40s" Id="c2ea4de4-1dd2-45a6-a65f-229c4dc6a2e1" RegularExpression="发动了“KFSJ”">
+        <Actions>
+          <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Placeholder">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="2" SystemBeepFreqExpression="1500" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="SystemBeep" ExecutionDelayExpression="40000">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="烈毒咬箭" Id="e4df5f63-877c-4eb5-a064-b975647260ae" RegularExpression="樱满幽发动了“烈毒咬箭”。">
+        <Actions>
+          <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="4f150b05-cfef-4055-a013-b184fc6c4551" TriggerText="樱满幽发动了“KFSJ”。" ActionType="Trigger">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="2" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="4f150b05-cfef-4055-a013-b184fc6c4551" TriggerText="发动了“LDYJ”" ActionType="Trigger">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="LDYJ40s" Id="4f150b05-cfef-4055-a013-b184fc6c4551" RegularExpression="发动了“LDYJ”">
+        <Actions>
+          <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Placeholder">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="2" SystemBeepFreqExpression="1500" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="SystemBeep" ExecutionDelayExpression="40000">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="狂风蚀箭" Id="d4108da6-3df0-44b9-89e0-d84888da26f1" RegularExpression="樱满幽发动了“狂风蚀箭”。">
+        <Actions>
+          <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="c2ea4de4-1dd2-45a6-a65f-229c4dc6a2e1" TriggerText="樱满幽发动了“KFSJ”。" ActionType="Trigger">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="2" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="c2ea4de4-1dd2-45a6-a65f-229c4dc6a2e1" TriggerText="发动了“KFSJ”" ActionType="Trigger">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="伶牙俐齿" Id="9cb1991c-76fa-4f4a-a063-ddc1258a05ee" RegularExpression="樱满幽发动了“伶牙俐齿”。">
+        <Actions>
+          <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="c2ea4de4-1dd2-45a6-a65f-229c4dc6a2e1" ActionType="Trigger">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="2" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="4f150b05-cfef-4055-a013-b184fc6c4551" ActionType="Trigger">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="3" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="c2ea4de4-1dd2-45a6-a65f-229c4dc6a2e1" TriggerText="发动了“KFSJ”" ActionType="Trigger">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="4" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="4f150b05-cfef-4055-a013-b184fc6c4551" TriggerText="发动了“LDYJ”" ActionType="Trigger">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+    </Triggers>
+  </ExportedFolder>
+</TriggernometryExport>
