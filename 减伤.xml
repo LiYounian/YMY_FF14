@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<TriggernometryExport Version="1">
+  <ExportedFolder Id="34acacbd-1bfd-4bae-91fc-dc51666edf20" Name="减伤" Enabled="true">
+    <Folders />
+    <Triggers>
+      <Trigger Enabled="true" Name="雪仇" Id="39a8788d-3c49-468c-a7ee-57ec5bf99057" RegularExpression="发动了“雪仇”。">
+        <Actions>
+          <Action OrderNumber="1" UseTTSTextExpression="雪仇" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="牵制" Id="e1bf8f21-13a6-4ef0-986e-c8e6a81106e1" RegularExpression="发动了“牵制”。">
+        <Actions>
+          <Action OrderNumber="1" UseTTSTextExpression="牵制" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="暗黑布道" Id="04055bb7-f4bb-4f66-b758-4441d88087f4" RegularExpression="发动了“暗黑布道”。">
+        <Actions>
+          <Action OrderNumber="1" UseTTSTextExpression="暗黑布道" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="摆脱" Id="d3899cb3-d3e7-4f30-9d24-32f695b3d0ae" RegularExpression="发动了“摆脱”。">
+        <Actions>
+          <Action OrderNumber="1" UseTTSTextExpression="摆脱" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="混乱" Id="7bebdffd-1a70-4646-8eaf-50da0623edbd" RegularExpression="发动了“混乱”。">
+        <Actions>
+          <Action OrderNumber="1" UseTTSTextExpression="混乱" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="策动" Id="d50fe68d-3627-4686-8007-5f1c23b24fca" RegularExpression="发动了“策动”。">
+        <Actions>
+          <Action OrderNumber="1" UseTTSTextExpression="策动" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="行吟" Id="181e8294-8c47-4ee9-a22a-1169b6f9659f" RegularExpression="发动了“行吟”。">
+        <Actions>
+          <Action OrderNumber="1" UseTTSTextExpression="行吟" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="抗死" Id="3ff29bf2-f7ab-4f35-b1a0-d6437c606613" RegularExpression="发动了“抗死”。">
+        <Actions>
+          <Action OrderNumber="1" UseTTSTextExpression="抗死" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="节制" Id="5fe7a1b0-325c-4138-9811-3834f66e325f" RegularExpression="发动了“节制”。">
+        <Actions>
+          <Action OrderNumber="1" UseTTSTextExpression="节制" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="光之心" Id="2071b565-0f1b-4ca2-bf3f-8f0086c9275d" RegularExpression="发动了“光之心”。">
+        <Actions>
+          <Action OrderNumber="1" UseTTSTextExpression="光之心" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+    </Triggers>
+  </ExportedFolder>
+</TriggernometryExport>
